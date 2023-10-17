@@ -1,0 +1,84 @@
+
+
+h1 {
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('sea.jpg');
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+    min-height: 690px;
+    min-width: 80%;
+    overflow: hidden;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.815);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+border-radius: 5px;
+
+
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+.inputSubmit {
+    background-color: #ffefbf98;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.inputSubmit:hover {
+    background-color: #ffefbf63;
+}
+
+.forgot {
+position: relative;
+right: -40px;
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter:blur(8px);  
+  
+}
+        
+a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid #ffefbf98;
+    width: 50px;
+    border-radius: 10px;
+    padding: 10px;
+
+   
+
+}
+
+a:hover {
+    background-color: #ffefbf98;
+}
+
+
